@@ -12,8 +12,9 @@ function countVowels(str) {
     console.log(str);
     const reg = /[aeiou]/gi
     var x = str.match(reg);
-    console.log(x.length);
-    console.log(x);
+    // console.log(x.length);
+    // console.log(x);
+    return x.length;
 }
 
 countVowels(str);
