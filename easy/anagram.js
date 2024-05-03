@@ -6,8 +6,8 @@
 
 // Testing Git
 
-function isAnagram(str1, str2) {
-  if(sortString(str1.toLocaleLowerCase()) === sortString(str2.toLocaleLowerCase())){
+function isAnagram(s1, s2) {
+  if(sortString(s1.toLocaleLowerCase()) === sortString(s2.toLocaleLowerCase())){
     return true;
   }
   return false;
